@@ -1,0 +1,49 @@
+[
+    {
+        "id": "b5278b200b201b71",
+        "type": "mqtt in",
+        "z": "903efa440b80df59",
+        "name": "",
+        "topic": "sic/flow3/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "74bebbf33770fc4f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 70,
+        "y": 160,
+        "wires": [
+            [
+                "7485505b0afe8a27"
+            ]
+        ]
+    },
+    {
+        "id": "74bebbf33770fc4f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "35.157.158.119",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
